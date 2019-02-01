@@ -1,0 +1,64 @@
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  // height: 100%;
+}
+header {
+  background-color: $accentBackgroundColor;
+}
+body {
+  background-color: $backgroundColor;
+}
+
+h1 {
+  color: $accentFontColor;
+  line-height: 50px;
+  text-align: center;
+}
+
+div {
+  background-color: beige;
+  margin: 0px auto;
+  width: 80%;
+  height: 150px;
+}
+
+a {
+  color: $mainFontColor;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 40px;
+  background-color: $backgroundColor;
+  border-radius: 30%;
+
+}
+section {
+    padding-bottom: 50px;
+    align-items: center;
+}
+span {
+  line-height: 50px;
+  padding: 25px;
+  background-color: pink;
+  
+}
+
+.count {
+  border-radius: 40%;
+  width: 150px;
+  height: 150px;
+  line-height: 50px;
+
+  &.positive {
+    color: purple;
+  }
+
+  &.negative {
+    color: white;
+  }
+}

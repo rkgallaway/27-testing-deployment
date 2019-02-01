@@ -25,9 +25,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>__tests__/jest-setup.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rkgallaway/27-testing-deployment.git"
@@ -37,5 +34,11 @@
   "bugs": {
     "url": "https://github.com/rkgallaway/27-testing-deployment/issues"
   },
-  "homepage": "https://github.com/rkgallaway/27-testing-deployment#readme"
+  "homepage": "https://github.com/rkgallaway/27-testing-deployment#readme",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
