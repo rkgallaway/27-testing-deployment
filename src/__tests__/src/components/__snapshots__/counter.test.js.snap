@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter /> Core Component (Snapshot Test) renders right 1`] = `
+<section
+  className="counter"
+>
+  <a
+    className="down"
+    href="#"
+    onClick={[Function]}
+  >
+    down
+  </a>
+  <span
+    className="count "
+  >
+    0
+  </span>
+  <a
+    className="up"
+    href="#"
+    onClick={[Function]}
+  >
+    up
+  </a>
+</section>
+`;
